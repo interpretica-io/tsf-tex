@@ -20,7 +20,7 @@
 #include "te_str.h"
 #include "te_alloc.h"
 #include "te_string.h"
-#include "te_vec.h"
+#include "te_vector.h"
 #include "logger_api.h"
 
 #include "tapi_job.h"
