@@ -356,7 +356,7 @@ tapi_tex_render(const tapi_tex_doc *doc, te_string *out)
         "\\usepackage{enumitem}\n"
         "\\usepackage{titlesec}\n"
         "\\usepackage{fancyhdr}\n"
-        "\\usepackage{fancyvrb}\n"
+        "\\usepackage{fvextra}\n"       /* fancyvrb + breaklines/breakanywhere */
         "\\usepackage{microtype}\n"
         "\\usepackage[hidelinks]{hyperref}\n");
 

@@ -37,7 +37,7 @@ and is accepted as the engine too (`tapi_tex_build_opts.engine`);
 The built-in preamble aims for a report that looks finished out of the
 box: `geometry` margins, an accent colour, `fontspec` fonts (TeX Gyre by
 default, which ship with TeX Live), `titlesec` headings in the accent
-colour, a `fancyhdr` header/footer, `booktabs` tables, `fancyvrb` code
+colour, a `fancyhdr` header/footer, `booktabs` tables, `fvextra` code
 blocks with line breaking, `microtype`, and `hyperref` links. Override
 the fonts, colour, geometry, class and title through `tapi_tex_opts`, or
 add packages and macros with `tapi_tex_use()`.
@@ -75,7 +75,7 @@ tapi_tex_doc_free(&doc);
 The agent needs a TeX distribution with the XeLaTeX engine and the
 packages above — on Debian/Ubuntu that is `texlive-xetex`,
 `texlive-latex-recommended`, `texlive-fonts-recommended` and
-`texlive-latex-extra` (for `fancyvrb`/`enumitem`/`titlesec`). Where it is
+`texlive-latex-extra` (for `fvextra`/`enumitem`/`titlesec`). Where it is
 missing, `tapi_tex_available()` returns `false` so a test skips rather
 than fails.
 
